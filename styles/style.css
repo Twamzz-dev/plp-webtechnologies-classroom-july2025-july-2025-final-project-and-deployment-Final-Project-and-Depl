@@ -119,3 +119,23 @@ main h2{
 .nav-links a.active{
     color: orange;
 }
+
+/* formatting the embedded map */
+.map-container{
+    margin-top: 20px;
+}
+
+/*styling form section*/
+.form{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.form button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f90;
+    cursor: pointer;
+}
