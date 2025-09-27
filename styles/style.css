@@ -1,10 +1,19 @@
 /* setting style for the page */
 *{
-    margin-left: 0px;
-    margin-right: 0px;
-    /*padding: 0px;*/
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
 }
 
 /*styling the cards*/
@@ -31,8 +40,8 @@
     justify-content: space-between;
     background-color: #333;
     color: #fff;
-    padding: 40px 20px;
-    font-family: Arial, sans-serif;
+    padding: 30px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer-section {
@@ -51,8 +60,8 @@
 }
 
 .social-icons a img {
-    width: 10px;
-    height: 10px;
+    width: 50x;
+    /* height: 50px; */
     margin-right: 10px;
 }
 
