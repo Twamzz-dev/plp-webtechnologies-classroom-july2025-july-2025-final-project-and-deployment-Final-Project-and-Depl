@@ -12,8 +12,20 @@ html, body{
     flex-direction: column;
 }
 
+p{
+    padding: 5px 0px;
+}
+
 main{
+    padding: 10px 20px 0px;
     flex: 1;
+}
+
+main h2{
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 /*styling the cards*/
@@ -61,7 +73,6 @@ main{
 
 .social-icons a img {
     width: 50x;
-    /* height: 50px; */
     margin-right: 10px;
 }
 
@@ -84,4 +95,27 @@ main{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+/* styling the navigation bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-links a.active{
+    color: orange;
 }
